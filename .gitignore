@@ -5,3 +5,9 @@
 !*.py
 
 !*.c++
+
+!*.html
+
+!*.js
+
+.gemini
