@@ -26,16 +26,17 @@
 ## 📁 폴더 구조
 
 STUDY
+
 ├── BAEKJOON
+
 │   ├── C++
-│   │   ├── 2557.c++
+
 │   │   └── …
+
 │   └── Py
-│       ├── 1000.py
-│       ├── 1001.py
-│       └── 2557.py
-├── .gitignore
-└── README.md
+
+│   │   └── …
+
 
 ## BAEKJOON (Algorithm Practice)
 
