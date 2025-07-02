@@ -24,15 +24,16 @@
 ---
 
 ## 📁 폴더 구조
-
-STUDY
-
-├── BAEKJOON
-│   ├── C++
-│   │   └── …
-│   └── Py
-│   │   └── …
-
+```  
+STUDY  
+├── BAEKJOON  
+│   ├── C++  
+│   │   └── …  
+│   └── Py  
+│       └── …
+├── .gitignore  
+└── README.md  
+```  
 
 ## BAEKJOON (Algorithm Practice)
 
