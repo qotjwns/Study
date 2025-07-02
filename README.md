@@ -19,7 +19,7 @@
   - 다양한 알고리즘 문제 풀이를 통해 자료구조·알고리즘 역량 강화  
   - 여러 언어와 프레임워크 예제를 프로젝트별로 기록  
 - **진행 상황**:  
-  - 주요 토픽: Array & String, Math, etc...
+  - 주요 토픽: Array & String, Math, etc…
 
 ---
 
@@ -37,7 +37,7 @@ STUDY
 
 ## BAEKJOON (Algorithm Practice)
 
----
+---Math, …
 
 ## Programming Languages & Frameworks
 
