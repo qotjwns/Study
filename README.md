@@ -19,13 +19,23 @@
   - 다양한 알고리즘 문제 풀이를 통해 자료구조·알고리즘 역량 강화  
   - 여러 언어와 프레임워크 예제를 프로젝트별로 기록  
 - **진행 상황**:  
-  - 주요 토픽: Array & String, Binary Search, Dynamic Programming 등  
+  - 주요 토픽: Array & String, Math, etc...
 
 ---
 
 ## 📁 폴더 구조
 
----
+STUDY
+├── BAEKJOON
+│   ├── C++
+│   │   ├── 2557.c++
+│   │   └── …
+│   └── Py
+│       ├── 1000.py
+│       ├── 1001.py
+│       └── 2557.py
+├── .gitignore
+└── README.md
 
 ## BAEKJOON (Algorithm Practice)
 
