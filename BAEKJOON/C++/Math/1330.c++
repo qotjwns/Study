@@ -12,4 +12,5 @@ int main(int args, const char * argv[]){
     else{
         std::cout << "==";
     }
+    return 0;
 }
