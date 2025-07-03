@@ -24,20 +24,21 @@
 ```  
 STUDY  
 ├── BackEnd
+│   └── …
 ├── BAEKJOON  
 │   ├── C++  
-│   │   └── Math
+│   │   ├── Math
 │   │   └── …
 │   └── Py  
-│       └── Math
+│       ├── Math
 │       └── …
 ├── FrontEnd
+│   └── …
 ├── .gitignore  
 └── README.md  
 ```  
 
-## BAEKJOON (Algorithm Practice)
-
-- Math, …
+## BAEKJOON (Algorithm Practice) --> [Profile](https://solved.ac/profile/qoqoqoqoqo)
+- Math, ...
 
 ## Programming Languages & Frameworks
