@@ -38,7 +38,7 @@ STUDY
 └── README.md  
 ```  
 
-## BAEKJOON (Algorithm Practice) --> [Profile](https://solved.ac/profile/qoqoqoqoqo)
+## BAEKJOON (Algorithm Practice)
 - Math, ...
 
 ## Programming Languages & Frameworks
