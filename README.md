@@ -38,7 +38,7 @@ STUDY
 └── README.md  
 ```  
 
-## BAEKJOON (Algorithm Practice)
+## BAEKJOON (Algorithm Practice for Test)
 - Math, ...
 
 ## Programming Languages & Frameworks
