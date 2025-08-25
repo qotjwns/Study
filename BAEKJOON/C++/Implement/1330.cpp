@@ -13,5 +13,4 @@ int main(int argv, const char * []) {
 	else {
 		std::cout << "==";
 	}
-
 }
