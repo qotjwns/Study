@@ -1,30 +1,80 @@
 #include <iostream>
 
-class Animal {
- private:
-  int food;
-  int weight;
+class Marine{
+  private:
+    int hp;
+    int coord_x, coord_y;
+    int damage;
+    bool is_dead;
+    
+  public:
+    Marine();
+    Marine(int x, int y);
 
- public:
-  void set_animal(int _food, int _weight) {
-    food = _food;
-    weight = _weight;
-  }
-  void increase_food(int inc) {
-    food += inc;
-    weight += (inc / 3);
-  }
-  void view_stat() {
-    std::cout << "이 동물의 food   : " << food << std::endl;
-    std::cout << "이 동물의 weight : " << weight << std::endl;
-  }
-};  // 세미콜론 잊지 말자!
+    int attack();
+    void be_attacked(int damage_earn);
+    void move(int x, int y);
+    void show_status();
+};
 
-int main() {
-    Animal animal;
-    animal.set_animal(100, 50);
-    animal.increase_food(30);
+Marine::Marine(){
+  hp = 50;
+  coord_x = coord_y = 0;
+  damage = 5;
+  is_dead = false;
+}
 
-    animal.view_stat();
-    return 0;
+Marine::Marine(int x, int y){
+  coord_x = x;
+  coord_y = y;
+  hp = 50;
+  damage = 5;
+  is_dead = false;
+}
+
+void Marine::move(int x, int y){
+  coord_x = x;
+  coord_y = y;
+}
+
+int Marine::attack(){
+  return damage;
+}
+
+void Marine::be_attacked(int damage_earn){
+  hp -= damage_earn;
+  if (hp <=0){
+    is_dead = true;
+  }
+}
+
+void Marine::show_status() {
+  std::cout << " *** Marine *** " << std::endl;
+  std::cout << " Location : ( " << coord_x << " , " << coord_y << " ) "
+            << std::endl;
+  std::cout << " HP : " << hp << std::endl;
+}
+
+int main(){
+  Marine mar1(2, 3);
+  Marine mar2(10, 6);
+
+  mar1.show_status();
+  mar2.show_status();
+
+  std::cout << "mar1 att mar2" << std::endl;
+
+  mar2.be_attacked(mar1.attack());
+
+  mar1.show_status();
+  mar2.show_status();
+
+  std::cout << "mar1 move to (7, 48)" << std::endl;
+  std::cout << "mar2 move to (69, 10)" << std::endl;
+  mar1.move(7,48);
+  mar2.move(69,10);
+
+  mar1.show_status();
+  mar2.show_status();
+
 }

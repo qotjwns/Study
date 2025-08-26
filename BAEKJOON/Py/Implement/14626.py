@@ -34,6 +34,8 @@ else:
             print(i)
             break
 
+#O(1)
+
 # GPT
 # def solve():
 #     num = input().strip()
