@@ -25,11 +25,14 @@ class Plot:
     def __init__(self):
         self.figsize = (8,8)
     
-    def plot_point(self, x, y):
+    def plot_point(self, x, y1, y2= None):
         plt.figure(figsize= self.figsize)
-        plt.plot(x, y, "bo")
 
-# class
+        if y2 is None:
+            plt.plot(x, y1, "bo")
+        else:
+            plt.plot(x, y1, "bo")
+            plt.plot(x, y2, "r")
 
 if __name__=="__main__":
     print(Path(__file__).re)
