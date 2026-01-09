@@ -22,9 +22,7 @@
 
 ## 📁 폴더 구조
 ```  
-STUDY  
-├── BackEnd
-│   └── …
+STUDY
 ├── BAEKJOON  
 │   ├── C++  
 │   │   ├── Basic
@@ -34,7 +32,7 @@ STUDY
 │       ├── Basic
 │       └── …
 │       └── …
-├── FrontEnd  
+├── Data
 │   └── …
 ├── ML (Machine Learning)
 │   └── …
