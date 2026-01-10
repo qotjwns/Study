@@ -261,3 +261,7 @@ __marimo__/
 .DS_store
 /ML/data/
 /just
+
+BAEKJOON/C++/Math/[0-9]*
+BAEKJOON/C++/Implement/[0-9]*
+BAEKJOON/C++/DS/[0-9]*
