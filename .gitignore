@@ -262,6 +262,5 @@ __marimo__/
 /ML/data/
 /just
 
-BAEKJOON/C++/Math/[0-9]*
-BAEKJOON/C++/Implement/[0-9]*
-BAEKJOON/C++/DS/[0-9]*
+BAEKJOON/C++/[0-9]*
+BAEKJOON/C++/*/[0-9]*
