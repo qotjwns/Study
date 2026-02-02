@@ -3,10 +3,8 @@ input = sys.stdin.readline
 
 def check(num: str) -> str:
     num_reverse = num[::-1]
-    if num_reverse == num:
-        return "yes"
     
-    else: return "no"
+    return "yes" if num_reverse == num else "no"
 
 if __name__ == "__main__":
     while True:
