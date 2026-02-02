@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(int args, const char * argv[]){
+int main(){
     int a, b;
     std::cin >> a >> b;
     if (a > b) {

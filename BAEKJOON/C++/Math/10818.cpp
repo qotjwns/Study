@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 
-int main(int args, const char * argv[]){
+int main(){
     int n;
     std::cin >> n;
     std::vector<int> v(n);

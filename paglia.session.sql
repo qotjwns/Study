@@ -1,2 +1,2 @@
-
-SELECT * FROM actor
+SELECT * FROM film
+WHERE release_year = '2012'

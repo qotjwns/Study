@@ -15,7 +15,7 @@ int main(){
     std::cin >> K;
     std::stack<int> st;
     
-    for (size_t i = 0; i < K; i++){
+    for (int i = 0; i < K; i++){
 
         std::cin >> num;
         if(num == 0){

@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(int argv, const char * []) {
+int main() {
 	int a, b;
 	std::cin >> a;
 	std::cin >> b;

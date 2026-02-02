@@ -262,5 +262,10 @@ __marimo__/
 /ML/data/
 /just
 
-BAEKJOON/C++/**/[0-9]*
-!BAEKJOON/C++/**/[0-9]*.cpp
+# build outputs
+bin/
+**/bin/
+
+# (optional) macOS / VSCode junk
+.DS_Store
+.vscode/*.log

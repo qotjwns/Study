@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
-int main(int args, const char * argv[]){
+int main(){
     double a, b;
     std::cin >> a >> b;
     std::cout << std::fixed
