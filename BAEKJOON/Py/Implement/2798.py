@@ -13,9 +13,9 @@ cards = list(map(int, input().split()))
 
 cur_sum = 0
 
-for cards in list(combinations(cards, R)):
+for card in list(combinations(cards, R)):
 
-    check_sum = sum(cards)
+    check_sum = sum(card)
 
     if check_sum > M:
         continue
